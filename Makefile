@@ -9,3 +9,10 @@ docker-run:
 
 dev-server:
 	npm start
+
+install:
+	npm install
+
+force-install:
+	rm -rf node_modules
+	npm install
