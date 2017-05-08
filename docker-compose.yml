@@ -7,3 +7,7 @@ services:
     ports:
       - "3000:3000"
     image: node-test:0.1
+    links: ["mongo"]
+  mongo:
+    image: mongo
+    ports: ["27017:27017"]
