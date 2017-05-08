@@ -1,0 +1,16 @@
+{
+  "name": "docker-node-mongo",
+  "version": "1.0.0",
+  "description": "Docker node mongo skleleton",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "nodemon": "^1.11.0"
+  }
+}
