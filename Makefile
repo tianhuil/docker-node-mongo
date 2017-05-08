@@ -1,3 +1,6 @@
+dev:
+	docker-compose up
+
 docker-build:
 	docker build -t node-test:0.1 .
 
